@@ -11,6 +11,12 @@ const Root = createStackNavigator({
     Principal: {
       screen: Principal
     },
+}, 
+                                  {
+    headerMode: 'none',
+    navigationOptions: {
+        headerVisible: false,
+    }
 });
 
 const container = createAppContainer(Root);
