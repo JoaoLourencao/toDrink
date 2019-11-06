@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-
 import {View, Text} from 'react-native';
 
-export default class Main extends Component {
+export default class Login extends Component {
     render(){
         return(
             <View>
-                <Text>Pagina main!</Text>
+                <Text>Login de Usuarios!</Text>
             </View>
         );       
     }
