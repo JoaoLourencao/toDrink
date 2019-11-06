@@ -6,7 +6,7 @@ import Login from './pages/Login';
 
 const Root = createStackNavigator({
     Login: {        
-        screen: Login
+      screen: Login
     },
     Principal: {
       screen: Principal
