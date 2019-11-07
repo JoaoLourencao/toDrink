@@ -12,7 +12,7 @@ const Root = createStackNavigator({
       screen: Principal
     },
 }, 
-                                  {
+{
     headerMode: 'none',
     navigationOptions: {
         headerVisible: false,

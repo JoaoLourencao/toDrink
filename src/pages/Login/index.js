@@ -12,7 +12,7 @@ export default class Login extends Component {
         return(
             <View style={styles.container}>
                 <Image
-                    source = {require('toDrink/src/img/dragon.png')}
+                    source = {require('toDrink/src/img/transparente.png')}
                     style={styles.logo}
                 />
                 <TextInput

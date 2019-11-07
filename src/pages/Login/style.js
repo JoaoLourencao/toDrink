@@ -5,19 +5,22 @@ const styles = StyleSheet.create({
     container:{
         flex:1,
         justifyContent: 'center',
+        padding: 10,
         alignItems: 'center',
-        backgroundColor: '#f08080',
+        backgroundColor: '#d69830',
     },
     logo: {
-        width: 200,
-        height: 200,
-        margin: 20
+        width: 350,
+        height: 250
     },
     input: {
-        padding:10,
+        borderWidth:0,
+        borderBottomWidth:2,
+        borderBottomColor:'#252525',
+      
         marginTop: 20,
         width: 300,
-        backgroundColor: '#fff',
+        // backgroundColor: '#fff',
         fontSize: 16,
         fontWeight: 'bold',
         borderRadius: 3
@@ -25,7 +28,7 @@ const styles = StyleSheet.create({
     botao: {
         width: 300,
         height: 42,
-        backgroundColor: '#5e2129',
+        backgroundColor: '#5f233f',
         marginTop: 20,
         borderRadius: 4,
         alignItems: 'center',
