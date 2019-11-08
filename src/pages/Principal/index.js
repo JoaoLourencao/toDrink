@@ -1,22 +1,17 @@
 import React, { Component } from 'react';
-import {View, Text} from 'react-native';
+import {View, Text, TouchableOpacity} from 'react-native';
+import styles from '../Principal/style';
+import Login from '../Login';
 
 export default class Principal extends Component {
-    static navigationOptions = {
-        title: "toDrink",
-        headerStyle: {
-            backgroundColor: '#8B4513',
-          },
-          headerTintColor: '#fff',
-          headerTitleStyle: {
-            fontWeight: 'bold',
-          },
-    };  
     render(){
+        const {navigate} = this.props.navigation;
         return(
-            <View>
-                <Text>Hello world!</Text>
+            <View style={styles.container}>
+                <TouchableOpacity onPress={()=>navigate('Login')}>
+                    <Text>Hello world!</Text>
+                </TouchableOpacity>
             </View>
         );       
     }
-}
+} 

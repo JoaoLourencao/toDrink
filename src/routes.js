@@ -1,23 +1,14 @@
-import { createStackNavigator } from 'react-navigation-stack';
-import { createAppContainer } from 'react-navigation';
-import Principal from './pages/Principal';
-import Distribuidoras from './pages/Distribuidoras';
 import Login from './pages/Login';
+import Principal from './pages/Principal';
+import Cadastro from './pages/Cadastro';
 
-const Root = createStackNavigator({
-    Login: {        
-      screen: Login
-    },
-    Principal: {
-      screen: Principal
-    },
-}, 
-{
-    headerMode: 'none',
-    navigationOptions: {
-        headerVisible: false,
-    }
-});
+import { createAppContainer, createSwitchNavigator } from 'react-navigation';
 
-const container = createAppContainer(Root);
-export default container; 
+const Routes = createAppContainer(
+        createSwitchNavigator({
+            Login,
+            Cadastro,
+            Principal,
+}));
+
+export default Routes;

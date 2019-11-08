@@ -11,7 +11,7 @@ const styles = StyleSheet.create({
     },
     logo: {
         width: 350,
-        height: 280,
+        height: 250,
         marginTop: -20
     },
     //caixa de texto
@@ -20,7 +20,10 @@ const styles = StyleSheet.create({
         borderBottomWidth:1,
         borderBottomColor:'#FFF',
         width: '100%',
-        marginTop: 20,
+        marginTop: 10,
+        // position: 'relative',
+        // placeholderTextColor: '#d69830',   
+        // backgroundColor: '#fff',
         fontSize: 16,
         color: '#fff',
         // fontWeight: 'bold',
