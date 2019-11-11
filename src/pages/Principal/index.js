@@ -3,8 +3,8 @@ import { Container, Header, Item, Input, Button, Text, View, Icon, Tab, Tabs, Ta
 import styles from '../Principal/style';
 import Login from '../Login';
 import Distribuidoras from '../Distribuidoras/index';
-// import Tab2 from './tabTwo';
-// import Tab3 from './tabThree';
+import Pedidos from '../Pedidos/index';
+import Perfil from '../Perfil/index';
 
 export default class Principal extends Component {
     render(){
@@ -16,7 +16,6 @@ export default class Principal extends Component {
             <Icon name="ios-search"/>
             <Input placeholder="Search" />
             <Icon name="wine"/>
-            
           <Button transparent>
             <Text>Search</Text>
           </Button>
@@ -27,7 +26,10 @@ export default class Principal extends Component {
             <Distribuidoras/>
           </Tab>
           <Tab heading={ <TabHeading style={styles.navBar}><Icon name="paper" /><Text>Pedidos</Text></TabHeading>}>
-          <Distribuidoras/>
+          <Pedidos/>
+          </Tab>
+          <Tab heading={ <TabHeading style={styles.navBar}><Icon name="person" /><Text>Perfil</Text></TabHeading>}>
+          <Perfil/>
           </Tab>
          </Tabs>
       </View>
