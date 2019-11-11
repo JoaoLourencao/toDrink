@@ -16,12 +16,12 @@ export default class Login extends Component {
                 />
                 <TextInput
                     style={styles.input}
-                    placeholder="Digite seu email"
+                    placeholder="Email"
                     placeholderTextColor= '#CECECE'
                 />
                 <TextInput
                     style={styles.input}
-                    placeholder="Digite sua senha"
+                    placeholder="Senha"
                     placeholderTextColor= '#CECECE'
                     secureTextEntry={true}
                 />

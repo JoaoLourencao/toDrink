@@ -4,9 +4,6 @@ import {StyleSheet} from 'react-native';
 const styles = StyleSheet.create({
     container:{
         flex:1,
-        justifyContent: 'center',
-        padding: 30,
-        alignItems: 'center',
         backgroundColor: '#5f233f',
     },
     logo: {
@@ -51,7 +48,14 @@ const styles = StyleSheet.create({
     textoCadastro: {
         color: '#d69830',
         marginTop: 20,
-    }
+    },
+
+    searchBar: {
+        backgroundColor: '#5f233f',
+    },
+    navBar: {
+        backgroundColor: '#d69830',
+     }
 })
 
 export default styles;
