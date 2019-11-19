@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import {View, TextInput, Image, TouchableOpacity, Text} from 'react-native';
 import styles from './style';
 import Principal from '../Principal/index';
+import Teste from '../Teste/index';
+import Perfil from '../Perfil/index';
 
 export default class Login extends Component {
     
@@ -27,7 +29,7 @@ export default class Login extends Component {
                 />
                 <TouchableOpacity 
                     style={styles.botao} 
-                    onPress={ () => navigate('Principal')}>
+                    onPress={ () => navigate('Teste')}>
                     <Text style={styles.botaoText}>Login</Text>
                 </TouchableOpacity>
                 <TouchableOpacity>

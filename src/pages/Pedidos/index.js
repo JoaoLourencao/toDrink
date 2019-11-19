@@ -11,7 +11,7 @@ export default class Distribuidoras extends Component {
             <Container style={styles.container}>
             <Body style={styles.corpo}>
             <Title style={styles.title}>Nenhum pedido em andamento</Title>
-            <Text style={styles.txt}>Que tal fazer um pedido para alegar seu dia? <Text style={styles.txt}>Basta clicar em "Início" e selecionar seu pedido!</Text></Text>
+            <Text style={styles.txt}>Que tal fazer um pedido? <Text style={styles.txt}>Basta clicar em "Início" e selecionar seu pedido!</Text></Text>
             </Body>
              </Container>
         );       
