@@ -23,7 +23,7 @@ export default class Principal extends Component {
           </Header>
           <Tabs  >
           <Tab heading={ <TabHeading style={styles.navBar}><Icon name="home" /><Text>Início</Text></TabHeading>}>
-            <Distribuidoras/>
+          <Distribuidoras/>
           </Tab>
           <Tab heading={ <TabHeading style={styles.navBar}><Icon name="paper" /><Text>Pedidos</Text></TabHeading>}>
           <Pedidos/>

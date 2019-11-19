@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {View, Text, Button, TextInput, Image, TouchableOpacity} from 'react-native';
+import {View,ScrollView, Text, Button, TextInput, Image, TouchableOpacity} from 'react-native';
 import styles from '../Cadastro/style';
 import Login from '../Login';
 
@@ -8,7 +8,7 @@ export default class Cadastro extends Component {
         const { navigate } = this.props.navigation;
 
         return(
-            <View style={styles.container}>
+            <ScrollView style={styles.container}>
                 <Image
                     source = {require('toDrink/src/img/logo.png')}
                     style={styles.logo}
@@ -41,7 +41,7 @@ export default class Cadastro extends Component {
                 <TouchableOpacity>
                     <Text style={styles.textoCadastro}>Já possui uma conta?<Text style={styles.botaoCadastrar} onPress={() => navigate('Login')}> Login</Text></Text>
                 </TouchableOpacity>
-            </View>
+            </ScrollView>
         );       
     }
 }
